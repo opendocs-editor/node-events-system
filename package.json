@@ -1,6 +1,6 @@
 {
     "name": "node-events-system",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "An easy events system for Node.js.",
     "main": "min/index.js",
     "repository": "https://git.nosadnile.net/opendocs/node-events-system",
@@ -42,5 +42,10 @@
     },
     "publishConfig": {
         "registry": "https://npm.nosadnile.net/"
-    }
+    },
+    "files": [
+        "dist/**/*.*",
+        "min/**/*.*",
+        "**/*.*"
+    ]
 }
