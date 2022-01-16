@@ -38,5 +38,5 @@ build:
 
 deploy:
     stage: deploy
-    steps:
+    script:
         - yarn publish --new-version unstable-$CI_PIPELINE_ID
