@@ -3,7 +3,7 @@
     "version": "1.0.5",
     "description": "An easy events system for Node.js.",
     "main": "min/index.js",
-    "repository": "https://git.nosadnile.net/opendocs/node-events-system",
+    "repository": "https://github.com/opendocs-editor/node-events-system",
     "author": "Jacob Sapoznikow <jacob1coder@gmail.com>",
     "license": "MIT",
     "dependencies": {
@@ -45,7 +45,19 @@
     "files": [
         "dist/**/*.*",
         "min/**/*.*",
-        "**/*.*"
+        "package.json",
+        "src/**/*.*",
+        "test/**/*.*",
+        "scripts/**/*.*",
+        ".eslintignore",
+        ".eslintrc",
+        ".gitignore",
+        ".npmignore",
+        ".prettierignore",
+        ".prettierrc.js",
+        "README.md",
+        "tsconfig.json",
+        "yarn.lock"
     ],
     "packageManager": "yarn@3.1.1"
 }
