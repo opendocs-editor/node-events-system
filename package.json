@@ -39,7 +39,8 @@
         "postpublish": "node scripts/minify.js"
     },
     "publishConfig": {
-        "registry": "https://npm.nosadnile.net/"
+        "registry": "https://npm.pkg.github.com",
+        "access": "public"
     },
     "files": [
         "dist/**/*.*",
